@@ -2,51 +2,6 @@
 
 
 api-teater adalah API sedderhana untuk sistem untuk jadwal theater bioskop di bangun menggunakan django(rest_framework, JWT,decorator chache, Redis ,serialezer)
-atuk struktuk file seperti berikut
-
-root
- |
- |
- --film
- |	|
- |	--_pycache_
- |	|
- |	--migrations
- |	|
- |	--_init_.py
- |	|
- |	--apps.py
- |	|
- |	--models.py
- |	|
- |	--serializer.py
- |	|
- |	--tets.py
- |	|
- |	--urls.py
- |	|
- |	--vies.py
- |
- |
- --media
- |
- |
- --movie_theater
- |	|
- |	--_init_.py
- |	|
- |	--asgi.py
- |	|
- |	--settings.py
- |	|
- |	--urls.py
- |	|
- |	--vies.py
- |	|
- |	--wsgi.py
- |
- --manage.py
-
 
 saya menggunakan pattern ini karena lebih cepat dan mundah untuk handle erore, handle methot (GET, POST, PUT, PATCH, DELETE), CACHE (redis).
 
